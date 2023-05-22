@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Error</title>
+</head>
+<body>
+  <h4>Oops! there is an error</h4>
+  {% if error %}
+    <h4>{{ error.name }}</h4>
+    <p>{{ error.description }}</p>
+  {% endif %}
+</body>
+</html>
